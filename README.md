@@ -3,7 +3,7 @@ import os
 
 # Берем данные из настроек
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
-CHAT_ID = os.environ.get("TG_CHAT_ID")
+CHAT_ID = os.environ.get("TG_CHAT_ID") 
 
 if not TOKEN or not CHAT_ID:
     print("Ошибка: Токен или ID чата не найдены!")
